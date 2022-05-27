@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:toDegrees="720">
+    <shape
+        android:innerRadiusRatio="2"
+        android:shape="ring"
+        android:thicknessRatio="50"
+        android:useLevel="false">
+        <size
+            android:width="170dp"
+            android:height="180dp" />
+
+        <gradient
+            android:centerColor="#C8F396"
+            android:centerX="0.2"
+            android:centerY="0.7"
+            android:endColor="#8DA2EC"
+            android:startColor="#00ED99FB"
+            android:type="sweep"
+            android:useLevel="false" />
+    </shape>
+</rotate>
+
+
+    <!--
+            <gradient
+                android:centerColor="#616161"
+                android:endColor="#424345"
+                android:startColor="#535353"
+                android:type="sweep"
+                android:useLevel="false" />-->
+    <!--<gradient
+            android:centerColor="#b43787"
+            android:centerY="0.50"
+            android:endColor="#C8F396"
+            android:startColor="#8DA2EC"
+            android:type="sweep"
+            android:useLevel="false" />-->
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromDegrees="0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toDegrees="1440">
+        <shape
+            android:innerRadiusRatio="2"
+            android:shape="ring"
+            android:thicknessRatio="50"
+            android:useLevel="false">
+            <size
+                android:width="170dp"
+                android:height="180dp" />
+
+            <gradient
+                android:centerColor="#b43787"
+                android:centerY="0.50"
+                android:endColor="#C8F396"
+                android:startColor="#8DA2EC"
+                android:type="sweep"
+                android:useLevel="false" />
+        </shape>
+
+    </rotate>
+    &lt;!&ndash;<?xml version="1.0" encoding="utf-8"?>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:innerRadiusRatio="3.5"
+        android:shape="ring"
+        android:thickness="10dp"
+        android:useLevel="false">
+        <gradient
+            android:angle="0"
+            android:endColor="#C8F396"
+            android:startColor="#8DA2EC"
+            android:type="linear" />
+    </shape>&ndash;&gt;
+        &lt;!&ndash;<?xml version="1.0" encoding="utf-8"?>
+    <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fromDegrees="270"
+        android:toDegrees="270">
+        <shape
+            android:innerRadiusRatio="2.5"
+            android:shape="ring"
+            android:thickness="10dp"
+            android:useLevel="true">&lt;!&ndash; this line fixes the issue for lollipop api 21 &ndash;&gt;
+
+            <gradient
+                android:angle="0"
+                android:endColor="#C8F396"
+                android:startColor="#8DA2EC"
+                android:type="sweep"
+                android:useLevel="false" />
+
+        </shape>
+
+    </rotate>&ndash;&gt;
+
+    -->
